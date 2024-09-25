@@ -31,4 +31,51 @@
 			offset: function() { return $nav.height(); }
 		});
 
+	//appear box for more description of the projects
+	document.addEventListener('DOMContentLoaded', function() {
+		const openLink = document.getElementById('open-box');
+		const messageBox = document.getElementById('message-box');
+		const closebutton = document.getElementById('close-box');
+	  
+		openLink.addEventListener('click', function(e) {
+		  e.preventDefault();
+		  messageBox.style.display = 'block';
+		});
+	  
+		closebutton.addEventListener('click', function() {
+		  messageBox.style.display = 'none';
+		});
+	});
+
+	document.addEventListener('DOMContentLoaded', function() {
+		const openLink = document.getElementById('open-box2');
+		const messageBox = document.getElementById('message-box2');
+		const closebutton = document.getElementById('close-box2');
+	  
+		openLink.addEventListener('click', function(e) {
+		  e.preventDefault();
+		  messageBox.style.display = 'block';
+		});
+	  
+		closebutton.addEventListener('click', function() {
+		  messageBox.style.display = 'none';
+		});
+	});
+
+	document.addEventListener('DOMContentLoaded', function() {
+		const openLink = document.getElementById('open-box3');
+		const messageBox = document.getElementById('message-box3');
+		const closebutton = document.getElementById('close-box3');
+	  
+		openLink.addEventListener('click', function(e) {
+		  e.preventDefault();
+		  messageBox.style.display = 'block';
+		});
+	  
+		closebutton.addEventListener('click', function() {
+		  messageBox.style.display = 'none';
+		});
+	});
+
+
 })(jQuery);
