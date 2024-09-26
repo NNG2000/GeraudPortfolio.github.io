@@ -1633,6 +1633,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
+			bottom: 15%;
 			display: block;
 			width: 100%;
 		}
@@ -1989,12 +1990,11 @@ input, select, textarea {
 			display: inline-block;
 			width: 100px;
 			padding: 5px;
-			background-color: #0056b3;
-			color: white;
+			background-color: #51aeda;
+			text-shadow: none;
 			border-radius: 2ch;
 
 		}
-
 
 /* Icons */
 

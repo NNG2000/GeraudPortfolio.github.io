@@ -36,9 +36,13 @@
 		const openLink = document.getElementById('open-box');
 		const messageBox = document.getElementById('message-box');
 		const closebutton = document.getElementById('close-box');
+		const messageBox2 = document.getElementById('message-box2');
+		const messageBox3 = document.getElementById('message-box3');
 	  
 		openLink.addEventListener('click', function(e) {
 		  e.preventDefault();
+		  messageBox2.style.display = 'none';
+		  messageBox3.style.display = 'none';
 		  messageBox.style.display = 'block';
 		});
 	  
@@ -51,9 +55,13 @@
 		const openLink = document.getElementById('open-box2');
 		const messageBox = document.getElementById('message-box2');
 		const closebutton = document.getElementById('close-box2');
+		const messageBox1 = document.getElementById('message-box');
+		const messageBox3 = document.getElementById('message-box3');
 	  
 		openLink.addEventListener('click', function(e) {
 		  e.preventDefault();
+		  messageBox1.style.display = 'none';
+		  messageBox3.style.display = 'none';
 		  messageBox.style.display = 'block';
 		});
 	  
@@ -66,9 +74,13 @@
 		const openLink = document.getElementById('open-box3');
 		const messageBox = document.getElementById('message-box3');
 		const closebutton = document.getElementById('close-box3');
+		const messageBox1 = document.getElementById('message-box');
+		const messageBox2 = document.getElementById('message-box2');
 	  
 		openLink.addEventListener('click', function(e) {
 		  e.preventDefault();
+		  messageBox1.style.display = 'none';
+		  messageBox2.style.display = 'none';
 		  messageBox.style.display = 'block';
 		});
 	  
