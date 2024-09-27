@@ -1633,7 +1633,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			bottom: 15%;
+			bottom: 5%;
 			display: block;
 			width: 100%;
 		}
@@ -1769,7 +1769,7 @@ input, select, textarea {
 
 		.message-box {
 			position: fixed;
-			top: 70px;
+			top: 50px;
 			left: 50%;
 			display: none;
 			z-index: 1000;
@@ -1779,8 +1779,9 @@ input, select, textarea {
 			width: fit-content;
 			text-align: left;
 			color: white;
+			
 			transform: translateX(-50%);
-			background-color: rgb(66, 56, 56);
+			background-color: #0056b3;
 			padding: 20px;
 			border-radius: 8px;
 			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -1924,6 +1925,15 @@ input, select, textarea {
 					ul.social li a:hover:before {
 						background-color: transparent;
 					}
+	.hobby{
+		width: 200px;
+		display: inline-block;
+
+	}
+	.lastword{
+		margin-top: 5px;
+		color: white;
+	}
 
 /* Actions */
 
@@ -1945,7 +1955,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #ABBDF9;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: left;
 		padding: 2em;
@@ -1967,6 +1977,7 @@ input, select, textarea {
 		.box.style2 {
 			height: 450px;
 			position: relative;
+			background-color: #ABBDF9;
 		}
 		.box.style2 h3 {
 			padding-top: 1em;
