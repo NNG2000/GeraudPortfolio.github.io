@@ -1779,7 +1779,7 @@ input, select, textarea {
 			width: fit-content;
 			text-align: left;
 			color: white;
-			
+
 			transform: translateX(-50%);
 			background-color: #292a2c;
 			padding: 20px;
@@ -1788,7 +1788,7 @@ input, select, textarea {
 		}
 		
 		.message-box button {
-			margin-left: 90%;
+			left: 90%;
 			padding: 5px 10px;
 			background-color: #43B3E0;
 			color: white;
@@ -1973,6 +1973,10 @@ input, select, textarea {
 				margin-bottom: 0.5em;
 				text-align: center;
 			}
+
+			.box.style1 li{
+				text-shadow: none;
+			}
 			
 		.box.style2 {
 			height: 450px;
@@ -1982,6 +1986,9 @@ input, select, textarea {
 		.box.style2 h3 {
 			padding-top: 1em;
 			margin-bottom: 0.25em;
+		}
+		.box.style2 p{
+			text-shadow: none;
 		}
 
 		.box.style2 .image {
@@ -2455,6 +2462,10 @@ input, select, textarea {
 				text-align: center;
 			}
 
+			header{
+				margin-top: 20%;
+			}
+
 		/* Nav */
 
 			#nav {
@@ -2491,6 +2502,10 @@ input, select, textarea {
 
 			#contact footer {
 				margin: 0;
+			}
+			.message-box button{
+				left: 90%;
+				width: fit-content;
 			}
 
 		/* Copyright */
